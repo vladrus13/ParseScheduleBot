@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="bean.User" table="User">
+        <id name="chatId" column="chat_id" type="long"/>
+        <property name="username" column="username" type="string"/>
+        <property name="role" column="role" type="int"/>
+        <property name="group" column="group_m" type="string"/>
+        <property name="name" column="name" type="string"/>
+        <property name="settings" column="settings" type="int"/>
+    </class>
+</hibernate-mapping>
